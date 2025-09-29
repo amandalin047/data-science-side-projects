@@ -27,11 +27,11 @@ Some projects are polished end-to-end systems; others are **in-progress research
 ---
 
 ## 📈 Classical ML & DL Experiments
+- **FastICA**: Manual implementation compared against `sklearn.FastICA`; validated using my own EEG/ERP data (kurtosis, Q_Q plots) and against MATLAB EEGLAB ICA weights.
 - **Neural network from scratch**: Forward/backward pass and Adam optimizer, tested on **Iris dataset**.  
-- **Elman RNN**: Forward dynamics implemented; **backpropagation unfinished**, left as an exploratory prototype.  
-- **FastICA**: Manual implementation compared against `sklearn.FastICA`; validated with MATLAB EEGLAB ICA weights.
-- **Seq2Seq with Attention**: Custom **Encoder–Decoder LSTM** with explicit **Attention layer**. Includes training loop, batching, gradient clipping, and teacher forcing. 
-- **Status:** Mixed—some complete (NN, ICA), some exploratory (RNN, Seq2Seq) and not yet tested on full datasets; scaffolded for extension.  
+- **Elman RNN**: Forward dynamics implemented; **backpropagation still under progress**, left as an exploratory prototype for furture work.  
+- **Seq2Seq with Attention**: Custom **Encoder–Decoder LSTM** with explicit **Attention layer**. Includes training loop, batching, gradient clipping, and teacher forcing.<br>
+> **✅ STATUS**: Mixed—some complete (NN, ICA), some exploratory (RNN, Seq2Seq) and not yet tested on full datasets; scaffolded for extension.  
 
 ---
 
