@@ -26,18 +26,12 @@ Some projects are polished end-to-end systems; others are **in-progress research
 
 ---
 
-## 🧠 Seq2Seq with Attention
-- Custom **Encoder–Decoder LSTM** with explicit **Attention layer**.  
-- Includes training loop, batching, gradient clipping, and teacher forcing.  
-- **Status:** Model architecture complete; not yet tested on full datasets. Scaffolded for extension.  
-
----
-
 ## 📈 Classical ML & DL Experiments
 - **Neural network from scratch**: Forward/backward pass and Adam optimizer, tested on **Iris dataset**.  
 - **Elman RNN**: Forward dynamics implemented; **backpropagation unfinished**, left as an exploratory prototype.  
-- **FastICA**: Manual implementation compared against `sklearn.FastICA`; validated with MATLAB EEGLAB ICA weights.  
-- **Status:** Mixed—some complete (NN, ICA), some exploratory (RNN).  
+- **FastICA**: Manual implementation compared against `sklearn.FastICA`; validated with MATLAB EEGLAB ICA weights.
+- **Seq2Seq with Attention**: Custom **Encoder–Decoder LSTM** with explicit **Attention layer**. Includes training loop, batching, gradient clipping, and teacher forcing. 
+- **Status:** Mixed—some complete (NN, ICA), some exploratory (RNN, Seq2Seq) and not yet tested on full datasets; scaffolded for extension.  
 
 ---
 
@@ -59,12 +53,7 @@ Some projects are polished end-to-end systems; others are **in-progress research
 
 ## 🗂 Repository Structure
 
-data-science-side-projects/ │ ├── rag_pipeline/
-├── agent_sys/
-├── seq2seq_model/
-├── classical_ml/
-│ ├── deep-learning.ipynb │ ├── RNN-Elman.ipynb │ └── fastICA.ipynb ├── automation/
-└── fun_problems/
+
 
 ---
 
