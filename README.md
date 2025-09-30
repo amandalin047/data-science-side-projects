@@ -28,7 +28,7 @@ Some projects are polished end-to-end systems; others are **in-progress research
 
 ## 📈 Classical ML & DL Experiments/Explorations
 - **FastICA**: Manual implementation **from sctatch with only `Numpy`**. Compared against `sklearn.FastICA`; tested on **my own EEG/ERP data** (colleced in 2022) using metrics such as kurtosis and Q_Q plots, then compared against `MATLAB` `EEGLAB` ICA weights.
-- **3-layer Neural Network**: Forward and backward pass and Adam optimizer and dropout manually implemented **from scratch**, tested on `Iris` and `Wine` datasets for accuracy, training loss plot, and confusion matrix.
+- **3-layer Neural Network**: Forward and backward pass + Adam optimizer + dropout manually implemented **from scratch**, tested on `Iris` and `Wine` datasets for accuracy, training loss plot, and confusion matrix.
 - **Elman RNN**: Forward dynamics implemented **from scratch**; _backpropagation still in progress_, left as an exploratory prototype for furture work.  
 - **Seq2Seq with Attention**: Custom **Encoder–Decoder LSTM** with explicit **Attention layer**. Includes training loop, batching, gradient clipping, and teacher forcing; _dataset validation still in progress_ <br>
 > **✅ STATUS**: Mixed — some complete (NN, ICA); some exploratory (RNN, Seq2Seq) and not yet tested on full datasets, scaffolded for extension.  
