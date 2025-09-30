@@ -32,7 +32,7 @@ def authenticate(absolute_directory):
             creds.refresh(Request())
         else:
             flow = InstalledAppFlow.from_client_secrets_file(
-                "C:\\Users\\User\\juiling\\credentials.json", SCOPES)
+                "credentials.json", SCOPES)
             creds = flow.run_local_server(port=0)
         with open(token_path, "w") as token:
             token.write(creds.to_json())
@@ -129,7 +129,7 @@ def send_email(gmail_service, to, newspaper, plain_text, file_path, html_text=No
     message["From"] = "my.mothers.email@gmail.com"
     message["Subject"] = subject  
 
-    message.add_attachment(file_data, maintype='application', subtype='octet-stream', filename=file_name)
+    message.add_attachment(file_data, maintype="application", subtype="octet-stream", filename=file_name)
 
     if image_paths:
         for image_path in image_paths:
@@ -188,8 +188,8 @@ def create_doc(obj, directory):
     return file_path
 
 
-absolute_directory = "C:\\Users\\User\\juiling\\"
-newspaper_email_dict = {"TEST": "my.email3@gmail.com",
+absolute_directory = "absolute_directory_here/"
+newspaper_email_dict = {"TEST": "my.email@gmail.com",
                         "聯合報D家庭副刊": "family@udngroup.com", # "family@udngroup.com"
                         "聯合報D健康": "health@udngroup.com", # "health@udngroup.com"
                         "聯合報繽紛版": "benfen@udngroup.com", #"benfen@udngroup.com",
@@ -217,13 +217,5 @@ if __name__ == "__main__":
             )
         except KeyError:
             print(f"'{obj.title}'寄件草稿格式錯誤，請修改後再試一次。")
-        else:
+        else: 
             gmail_service.users().drafts().delete(userId="me", id=obj.draft_id).execute()
-
-
-
-
-
-
-
-
