@@ -35,15 +35,18 @@ Some projects are polished end-to-end systems; others are **in-progress research
 
 ---
 
-## 📬 Workflow Automation
-- **Automated Gmail sender**:  
-  - Authenticates via Google API.  
-  - Pulls recent drafts, converts to Word docs, generates HTML email bodies, attaches images, and **auto-submits to newspaper addresses**.
+## 📬 Workflow Automation for _Real-World Problems_
+- **Automated Newspaper Submission Script**:  
+  - Pulls recent Gmail drafts and parses newspaper name, title, and content.
+  - Generates `.doc` + `.docx` files automatically.
+  - Formats HTML email bodies with **word counts** and metadata.
+  - Sends submissions (with images/attachments) to the correct editorial desk.
+  - Deletes the draft once successfully sent.
 - **Automated Google Sheet for Clinical Management**:
   - Auto calculates pill counts per week and flags overdose.
   - Integrates **command line** function within sheet.
   - Displays and removes images on command.
-> **✅ STATUS**: Fully functional productivity script.  
+> **✅ STATUS**: Fully functional — solves **real-world workflow needs** (family clinical/log management, auto-assisted newspaper submissions).
 
 ---
 
