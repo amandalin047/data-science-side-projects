@@ -40,8 +40,7 @@ Some projects are polished end-to-end systems; others are **in-progress research
   - Authenticates via Google API.  
   - Pulls recent drafts, converts to Word docs, generates HTML email bodies, attaches images, and **auto-submits to newspaper addresses**.
 - **Automated Google Sheet for Clinical Management**:
-  - Auto calculates pill counts per week.
-  - Auto flags overdose.
+  - Auto calculates pill counts per week and flags overdose.
   - Integrates **command line** function within sheet.
   - Displays and removes images on command.
 > **✅ STATUS**: Fully functional productivity script.  
