@@ -44,7 +44,7 @@ Some projects are polished end-to-end systems; others are **in-progress research
   - Auto flags overdose.
   - Integrates **command line** function within sheet.
   - Displays and removes images on command.
-> **✅ STATUS**:** Fully functional productivity script.  
+> **✅ STATUS**: Fully functional productivity script.  
 
 ---
 
