@@ -38,8 +38,13 @@ Some projects are polished end-to-end systems; others are **in-progress research
 ## 📬 Workflow Automation
 - **Automated Gmail sender**:  
   - Authenticates via Google API.  
-  - Pulls recent drafts, converts to Word docs, generates HTML email bodies, attaches images, and **auto-submits to newspaper addresses**.  
-- **Status:** Fully functional productivity script.  
+  - Pulls recent drafts, converts to Word docs, generates HTML email bodies, attaches images, and **auto-submits to newspaper addresses**.
+- **Automated Google Sheet for Clinical Management**:
+  - Auto calculates pill counts per week.
+  - Auto flags overdose.
+  - Integrates **command line** function within sheet.
+  - Displays and removes images on command.
+> **✅ STATUS**:** Fully functional productivity script.  
 
 ---
 
