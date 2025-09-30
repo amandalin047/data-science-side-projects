@@ -26,27 +26,27 @@ Some projects are polished end-to-end systems; others are **in-progress research
 
 ---
 
-## 📈 Classical ML & DL Experiments
-- **FastICA**: Manual implementation compared against `sklearn.FastICA`; validated using my own EEG/ERP data (kurtosis, Q_Q plots) and against MATLAB EEGLAB ICA weights.
-- **Neural network from scratch**: Forward/backward pass and Adam optimizer, tested on **Iris dataset**.  
-- **Elman RNN**: Forward dynamics implemented; **backpropagation still under progress**, left as an exploratory prototype for furture work.  
-- **Seq2Seq with Attention**: Custom **Encoder–Decoder LSTM** with explicit **Attention layer**. Includes training loop, batching, gradient clipping, and teacher forcing.<br>
-> **✅ STATUS**: Mixed—some complete (NN, ICA), some exploratory (RNN, Seq2Seq) and not yet tested on full datasets; scaffolded for extension.  
+## 📈 Classical ML & DL Experiments/Explorations
+- **FastICA**: Manual implementation **from sctatch with only `Numpy`**. Compared against `sklearn.FastICA`; tested on **my own EEG/ERP data** (colleced in 2022) using metrics such as kurtosis and Q_Q plots, then compared against `MATLAB` `EEGLAB` ICA weights.
+- **3-layer Neural Network**: Forward and backward pass and Adam optimizer and dropout manually implemented **from scratch**, tested on `Iris` and `Wine` datasets for accuracy.  
+- **Elman RNN**: Forward dynamics implemented **from scratch**; _backpropagation still in progress_, left as an exploratory prototype for furture work.  
+- **Seq2Seq with Attention**: Custom **Encoder–Decoder LSTM** with explicit **Attention layer**. Includes training loop, batching, gradient clipping, and teacher forcing; _dataset validation still in progress_ <br>
+> **✅ STATUS**: Mixed — some complete (NN, ICA); some exploratory (RNN, Seq2Seq) and not yet tested on full datasets, scaffolded for extension.  
 
 ---
 
 ## 📬 Workflow Automation for _Real-World Problems_
 - **Automated Newspaper Submission Script**:  
-  - Pulls recent Gmail drafts and parses newspaper name, title, and content.
+  - Pulls recent Gmail drafts and parses newspaper name, title, and content (via Google API interactions).
   - Generates `.doc` + `.docx` files automatically.
-  - Formats HTML email bodies with **word counts** and metadata.
+  - Formats HTML email bodies with word counts and metadata.
   - Sends submissions (with images/attachments) to the correct editorial desk.
   - Deletes the draft once successfully sent.
 - **Automated Google Sheet for Clinical Management**:
   - Auto calculates pill counts per week and flags overdose.
-  - Integrates **command line** function within sheet.
+  - Integrates **command line** function _within sheet_.
   - Displays and removes images on command.
-> **✅ STATUS**: Fully functional — solves **real-world workflow needs** (family clinical/log management, auto-assisted newspaper submissions).
+> **✅ STATUS**: Fully functional. **Solves real-world workflow needs** (family clinical/log management, auto-assisted newspaper submissions).
 
 ---
 
