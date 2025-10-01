@@ -2,9 +2,11 @@
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)  
 ![PyTorch](https://img.shields.io/badge/PyTorch-1.13+-ee4c2c.svg)  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-336791.svg)  
-![scikit--learn](https://img.shields.io/badge/scikit--learn-1.4+-f7931e.svg)  
-![Status](https://img.shields.io/badge/Projects-Mixed%20Complete%20%2F%20In--Progress-yellow.svg)  
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.14+-ff6f00.svg)  
+![scikit--learn](https://img.shields.io/badge/scikit--learn-1.4+-f7931e.svg)<br>
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-336791.svg)    
+![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-V8%2B-4285F4.svg)<br>
+![Status](https://img.shields.io/badge/Projects-Mixed%20Complete%20%2F%20In--Progress-yellow.svg)
 
 This repository collects exploratory and applied projects spanning **information retrieval**, **multi-agent orchestration**, **deep learning architectures**, **classical ML**, **workflow automation**, and **algorithmic tinkering**.  
 
