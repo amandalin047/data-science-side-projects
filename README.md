@@ -31,7 +31,7 @@ Some projects are polished end-to-end systems; others are **in-progress research
 - **3-layer Neural Network**: Forward and backward pass + Adam optimizer + dropout manually implemented **from scratch**, tested on `Iris` and `Wine` datasets for accuracy, training loss plot, and confusion matrix.
 - **Elman RNN**: Forward dynamics implemented **from scratch**; _backpropagation still in progress_, left as an exploratory prototype for furture work.  
 - **Seq2Seq with Attention**: Custom **Encoder–Decoder LSTM** with explicit **Attention layer**. Includes training loop, batching, gradient clipping, and teacher forcing; _dataset validation still in progress_.
-- **CNN on ECG**: Toy 1D CNN trained on the [ECG Heartbeat Categorization Dataset](https://share.google/kMg85rxKAcdgvHKUS); demonstrates temporal feature extraction with convolution + pooling, with training loss/accuracy plots and confusion matrix for evaluation.
+- **CNN on ECG**: Toy CNN trained on the [ECG Heartbeat Categorization Dataset](https://share.google/kMg85rxKAcdgvHKUS); demonstrates temporal feature extraction with convolution + pooling, with training loss/accuracy plots and confusion matrix for evaluation.
 > **✅ STATUS**: Mixed — some complete (NN, ICA, CNN); some exploratory (RNN, Seq2Seq) and not yet tested on full datasets, scaffolded for extension.  
 
 ---
