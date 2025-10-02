@@ -46,6 +46,7 @@ Some projects are polished end-to-end systems; others are **in-progress research
   - Sends submissions (with images/attachments) to the correct editorial desk.
   - Deletes the draft once successfully sent.
 - **Automated Google Sheet for Clinical Management**:
+  - `Google Apps Script` implementation.
   - Auto calculates pill counts per week and flags overdose.
   - Integrates **command line** function _within sheet_.
   - Displays and removes images on command.
