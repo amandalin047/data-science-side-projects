@@ -57,7 +57,7 @@ Some projects are polished end-to-end systems; others are **in-progress research
 - **Path with Minimum Cost & Interval Scheduling**: explored different algorithms
 - **SHA-256 implemented from scratch**: bitwise ops, padding, chaining.  
 - **Elliptic curve arithmetic**: exploratory implementation of point addition and doubling.  
-> **✅ STATUS**: Open-ended exploration; details documented in notebook markdown. 
+> **✅ STATUS**: Open-ended explorations; details documented in notebook markdown. 
 
 
 ---
