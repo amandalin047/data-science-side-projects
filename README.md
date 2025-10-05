@@ -45,6 +45,7 @@ Some projects are polished end-to-end systems; others are **in-progress research
   - Formats HTML email bodies with word counts and metadata.
   - Sends submissions (with images/attachments) to the correct editorial desk.
   - Deletes the draft once successfully sent.
+  - See [demo video](https://youtube.com/shorts/5s4rt3fWWJM?si=KPeyhccLx-vcZhRr) 👀
 - **Automated Google Sheet for Clinical Management**:
   - `Google Apps Script` implementation.
   - Auto calculates pill counts per week and flags overdose.
