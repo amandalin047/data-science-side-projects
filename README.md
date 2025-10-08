@@ -10,21 +10,21 @@
 
 This repository collects exploratory and applied projects spanning **information retrieval**, **multi-agent orchestration**, **deep learning architectures**, **classical ML**, **workflow automation**, and **algorithmic tinkering**.  
 
-Some projects are polished end-to-end systems; others are **in-progress research prototypes** included to reflect the process of building and iterating.  
+Some projects are fully working systems; others are **in-progress exploration prototypes** included to reflect the process of building and iterating.  
 
 ---
 
 ## 🔎 Retrieval-Augmented Generation (RAG) Pipeline
 - Full pipeline with **web scraping, embeddings, PostgreSQL + pgvector, BM25 and HNSW indexes, hybrid retrieval**, and a **Gradio demo**.  
 - Supports **dense, lexical, and hybrid search** with LLM-based answer generation.  
-- **Status:** Fully functional, tested end-to-end.  
+> **✅ STATUS**: Fully functional, tested end-to-end.  
 
 ---
 
 ## 🤖 Multi-Agent System
 - Multi-agent orchestration combining RAG with **external APIs (NBA stats)**.  
 - Implements **Coordinator, Scraper, Embedding, and RAG agents**, plus domain-specific agents (Stats, Efficiency).  
-- **Status:** Fully working demo with group chat protocol and function registration.  
+> **✅ STATUS**: Fully working demo with group chat protocol and function registration.  
 
 ---
 
