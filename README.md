@@ -66,4 +66,4 @@ Some projects are fully working systems; others are **in-progress exploration pr
 ---
 
 ## 🚧 Note on Project Status
-Not every project here is fully polished. Some (RAG, automations) are fully functional demos, while others (Seq2Seq, RNN) are partial implementations included to demonstrate algorithmic curiosity and technical scaffolding. Together, they highlight **breadth, depth, and process**—not just final results.
+Not every project here is fully polished. Some are fully functional demos, while others are partial implementations included to demonstrate algorithmic curiosity and technical scaffolding. Together, they highlight **breadth, depth, and process**—not just final results.
