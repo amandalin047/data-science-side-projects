@@ -96,7 +96,7 @@ class AgentSys:
            "config_list": [{
            "model": "llama3",
            "api_key": "NotRequired",  
-           "base_url": "http://localhost:11434"  # Ollama
+           "base_url": "localhost"  # Ollama
          }],
            "temperature": 0.7,
            "cache_seed": None
@@ -105,7 +105,7 @@ class AgentSys:
         for name in default_agent_names_list:
             if name not in agents_info.keys():
                 print(f"LLM Config not provided for default agent: {name}, using default config\n {default_config}")
-                agents_info[agent] = AgentInfoParams(name, None, default_config, None)
+                agents_info[name] = AgentInfoParams(name, None, default_config, None)
        
         coordinator_agent = AssistantAgent(
              name="CoordinatorAgent",
