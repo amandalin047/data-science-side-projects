@@ -1,0 +1,14 @@
+# Google API client (for googleapiclient.discovery)
+google-api-python-client==2.149.0  
+
+# Core Google authentication library
+google-auth==2.35.0  
+
+# OAuth 2.0 flow handler (for InstalledAppFlow)
+google-auth-oauthlib==1.2.1  
+
+# HTTP transport adapter for Google Auth (used by Request)
+google-auth-httplib2==0.2.0  
+
+# Word document creation and parsing
+python-docx==1.1.2
