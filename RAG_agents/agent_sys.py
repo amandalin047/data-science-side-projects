@@ -1,5 +1,5 @@
-from online_test.rag_pipeline import WebScraper, Embedder, Database
-import online_test.rag_pipeline as rag_pipeline
+from rag_pipeline import WebScraper, Embedder, Database
+import rag_pipeline 
 from nba_api.stats.static import players
 from nba_api.stats.endpoints import playercareerstats
 from autogen import AssistantAgent, UserProxyAgent, register_function, GroupChat, GroupChatManager
